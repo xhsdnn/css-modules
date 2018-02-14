@@ -17,3 +17,7 @@ npm run dev
 ```
 npm run build
 ```
+
+
+  相关模版工程：[react-webpack-boilerplate](https://github.com/xhsdnn/react-webpack-boilerplate) <br/>
+  相关博客地址：[CSS Modules](http://blog.csdn.net/qq_26733915/article/details/54313492) 
