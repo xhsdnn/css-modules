@@ -1,0 +1,28 @@
+/* 基本用法 */
+.color {
+    color: red;
+}
+/* 显示的通过:local定义 */
+:local(.local-color) {
+    color: blue;
+}
+/* 通过:global定义 */
+:global(.global-color) {
+    color: green;
+}
+/* 组合——Composition */
+.bg-color {
+    background-color: black;
+}
+.fs {
+    font-size: 24px;
+}
+:global(.fw) {
+    font-weight: 400
+}
+.composes {
+    composes: bg-color; /* 直接使用 */
+    composes: ff from './other.css'; /* 从另个css文件引入 */
+    composes: fw from global; /* 引入全局class */
+    color: #fff;
+}
